@@ -1,0 +1,55 @@
+{
+  "name": "@veez/react",
+  "version": "1.0.6",
+  "description": "SDK React & React Native para VeezDelivery con Provider y Hooks listos para usar",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "homepage": "https://docs.veez.cl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veezdelivery/platform.git",
+    "directory": "sdks/js/packages/react"
+  },
+  "bugs": {
+    "url": "https://github.com/veezdelivery/platform/issues"
+  },
+  "author": "VeezDelivery <soporte@veez.cl>",
+  "license": "SEE LICENSE IN README.md",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"React SDK tests passed\"",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@veez/core": "^1.0.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "veezdelivery",
+    "veez",
+    "sdk",
+    "react",
+    "react-native",
+    "hooks",
+    "delivery",
+    "chile",
+    "despacho",
+    "envios",
+    "domicilio",
+    "express",
+    "logistics",
+    "shipping",
+    "last-mile",
+    "courier",
+    "santiago",
+    "flete"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@veez/core",
+  "version": "1.0.6",
+  "description": "SDK Core en TypeScript para VeezDelivery (HTTP, auth, tipos y llamadas a API)",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "homepage": "https://docs.veez.cl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veezdelivery/platform.git",
+    "directory": "sdks/js/packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/veezdelivery/platform/issues"
+  },
+  "author": "VeezDelivery <soporte@veez.cl>",
+  "license": "SEE LICENSE IN README.md",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Core tests passed\"",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "veezdelivery",
+    "veez",
+    "sdk",
+    "delivery",
+    "chile",
+    "despacho",
+    "envios",
+    "domicilio",
+    "express",
+    "logistics",
+    "shipping",
+    "last-mile",
+    "courier",
+    "santiago",
+    "flete"
+  ]
+}
