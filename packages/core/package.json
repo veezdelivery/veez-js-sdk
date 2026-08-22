@@ -8,11 +8,11 @@
   "homepage": "https://docs.veez.cl",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/veezdelivery/platform.git",
-    "directory": "sdks/js/packages/core"
+    "url": "git+https://github.com/veezdelivery/veez-js-sdk.git",
+    "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/veezdelivery/platform/issues"
+    "url": "https://github.com/veezdelivery/veez-js-sdk/issues"
   },
   "author": "VeezDelivery <soporte@veez.cl>",
   "license": "SEE LICENSE IN README.md",
