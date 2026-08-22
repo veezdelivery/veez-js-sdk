@@ -1,6 +1,6 @@
 {
   "name": "@veez/react",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "SDK React & React Native para VeezDelivery con Provider y Hooks listos para usar",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -22,7 +22,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@veez/core": "^1.0.6"
+    "@veez/core": "file:../core"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0"
