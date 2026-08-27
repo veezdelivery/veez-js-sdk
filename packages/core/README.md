@@ -81,6 +81,7 @@ const order = await veez.createOrder({
   },
   customer_name: "Juan Pérez",
   customer_phone: "+56912345678",
+  customer_rut: "12345678-9",
   reference_id: "ORD-9921",
   items: [
     { name: "Hamburguesa Doble", quantity: 2, price: 8900 }

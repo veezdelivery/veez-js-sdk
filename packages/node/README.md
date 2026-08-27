@@ -75,7 +75,8 @@ export async function createOrderHandler(req: Request) {
     pickup: { address: "Av. Providencia 1234, Santiago" },
     dropoff: { address: "Av. Apoquindo 4500, Las Condes" },
     customer_name: "Juan Pérez",
-    customer_phone: "+56912345678"
+    customer_phone: "+56912345678",
+    customer_rut: "12345678-9"
   });
 
   return Response.json(order);

@@ -28,6 +28,7 @@ export interface CreateOrderRequest {
     dropoff: Address;
     customer_name: string;
     customer_phone: string;
+    customer_rut?: string;
     reference_id?: string;
     items?: Array<{
         name: string;
